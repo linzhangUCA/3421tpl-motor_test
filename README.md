@@ -2,6 +2,7 @@
 In this assignment, you'll test the motor driver with the Pico board. Complete the scripts to veriify motors are functional and wiring is correct.
   
 ## Requirements:
+Complete the Python scripts and answer the questions by editing the [README](/README.md) file. 
 ### (50%) [ramp_up_down.py](/ramp_up_down.py)
 Slowly increase and decrease both motors' speed. Both motors should take actions at the same time.
 1. (10%) Ramp up both motors' speed (from stall to max) in 4 seconds. Spin both motors **forward**.
