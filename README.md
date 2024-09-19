@@ -23,7 +23,7 @@ Make marks on both wheels at same spot before you start the testing [script](/es
       > Your answer here.
    2. (10%) What would be the reasons if the speeds of the motors were different? 
       > Your answer here.
-3. (10%) Upload images to show final location of the marks on the wheels. 
+3. (10%) Upload images to show final location of the marks on each wheel. 
    
 ## AI Usage Policy
 Please give credits to your AI assistance. Refer to the [syllabus](https://linzhanguca.github.io/_docs/robotics1-2024/syllabus.pdf) for the citation format.
