@@ -14,14 +14,15 @@ Slowly increase and decrease both motors' speed. Both motors should take actions
 > - No loop is needed.
 
 ### (50%) Estimate Motor Speed
-Make marks on both wheels at same spot before you start the testing [script](/spin_2min.py). Run testing script
-1. (10%) Complete the script: [spin_2min.py](/spin_2min.py).
-   - (10%) Spin both motors with 50% duty cycle PWM signals. Let the spinning last for 2 minutes. Then stop.
+Make marks on both wheels at same spot before you start the testing [script](/estimate_speed.py). Run testing script and observe the motors behaviors carefully.
+1. (10%) Complete the testing script: [estimate_speed.py](/estimate_speed.py). Spin both motors on same direction with 50% duty cycle PWM signals. Let the spinning last for 2 minutes. Then stop.
 > **Hint**: No loop is needed.
 2. (30%) Observe the motor's behavior carefully and answer the questions below.
-   1. (20%) Can you estimate the speed of each motor in "revolutions per minute (RPM)"? Please use **one decimal place**. 
+   1. (20%) Can you estimate the speed of each motor using "revolutions per minute (RPM)"? Please round the RPM to **one decimal place**. 
       > Your answer here.
-   2. (10%) Whay would be the reasons if the speeds of the motors were different? 
+   2. (10%) What would be the reasons if the speeds of the motors were different? 
       > Your answer here.
-3. (10%) Upload evidence
-Upload an image 
+3. (10%) Upload images to show final location of the marks on the wheels. 
+   
+## AI Usage Policy
+Please give credits to your AI assistance. Refer to the [syllabus](https://linzhanguca.github.io/_docs/robotics1-2024/syllabus.pdf) for the citation format.
