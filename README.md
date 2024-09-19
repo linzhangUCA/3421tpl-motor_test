@@ -1,5 +1,5 @@
 # Motor Test
-In this assignment, you'll test the motor driver with the Pico board. Complete the scripts to veriify motors are functional and wiring is correct.
+In this assignment, you'll test the Pico board, the motor driver board and the DC motors.
   
 ## Requirements:
 Complete the Python scripts and answer the questions by editing the [README](/README.md) file. 
