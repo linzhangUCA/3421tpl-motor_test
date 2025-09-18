@@ -42,7 +42,7 @@ Develop a `DiffDriver` class by inheriting `DualMotorDriver` class.
 > IOW, do not use `Pin`, `PWM`, `Timer`, etc..
  
 1. (5%) Import correct module and inherit the `DualMotorDriver` class.
-2. (10%) Instantiate a `DualMotorDriver` object under the line `if __name__=="__main__":`. Please strictly follow the motor channel definitions in [Wiring Pico and Motor Driver Board](#11-wiring-pico-and-motor-driver-board) section.
+2. (10%) Instantiate a `DualMotorDriver` object in the test section below `if __name__=="__main__":`. Please strictly follow the motor channel definitions in [Wiring Pico and Motor Driver Board](#11-wiring-pico-and-motor-driver-board) section.
 3. Introduce the following four methods/functions to the `DiffDriver` class and achieve the requested behavior.
    - (10%) `forward_left()`: drives mobile base forward and leaning left.
    - (10%) `forward_right()`: drives mobile base forward and leaning right. 
@@ -56,7 +56,7 @@ Develop a `DiffDriver` class by inheriting `DualMotorDriver` class.
 > [!TIP]
 > - Upload [motor_driver.py](https://github.com/linzhangUCA/3421example-motor_control/blob/main/motor_driver.py) and [dual_motor_driver.py](https://github.com/linzhangUCA/3421example-motor_control/blob/main/dual_motor_driver.py) to your Pico board.
 > - Learn more about class inheritance from this interactive [tutorial](https://www.w3schools.com/python/python_inheritance.asp)
-> - Test newly developed functions frequently using the test code under the line: `if __name__=="__main__":`. 
+> - Test newly developed functions frequently using the test code below: `if __name__=="__main__":`. 
 
 #### 2.2. (10%) Use `DiffDriver` Class
 Please complete code in [test_diff_drive.py](test_diff_drive.py) to instantiate the `DiffDriver` class and use it to spin the motors.
