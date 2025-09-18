@@ -34,7 +34,7 @@ You will configure the motor driver board slightly different from the example.
 
 ### 2. (65%) Coding Exercises
 
-#### (55%) 2.1. Build `DiffDriver` Class from Inheritance
+#### 2.1. (55%) Build `DiffDriver` Class from Inheritance
 Work in [diff_driver.py](diff_driver.py).
 Develop a `DiffDriver` class by inheriting `DualMotorDriver` class.
 > [!WARNING]
