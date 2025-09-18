@@ -1,7 +1,16 @@
-# Motor Test
-In this assignment, you'll test the Pico board, the motor driver board and the DC motors.
-  
-## Requirements:
+# Motors Spin-Up
+
+## Objectives
+- Implement modular software development using object-orient programming paradim.
+- Practice class inheritance, modification and instantiation.
+- Estimate motor speed
+- Aware the gearbox and its functions. 
+
+## Requirements
+
+### 1. Coding Exercises
+Upload 
+#### 1.1 Inher
 Complete the Python scripts and answer the questions by editing the [README](/README.md) file. 
 ### (50%) [ramp_up_down.py](/ramp_up_down.py)
 Slowly increase and decrease both motors' speed. Both motors should take actions at the same time.
