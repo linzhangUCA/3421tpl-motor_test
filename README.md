@@ -9,8 +9,19 @@
 ## Requirements
 
 ### 1. Coding Exercises
-Upload 
-#### 1.1 Inher
+Upload the [example scripts](https://github.com/linzhangUCA/3421example-motor_control) to your Pico.
+Develop a `DiffDriver` class by inheriting `DualMotorDriver` class.
+
+1. Import correct module and inherit the `DualMotorDriver` class
+2. Introduce the following four methods/functions to the `DiffDriver` class and achieve the requested behavior.
+   - `left_forward()`: drives mobile base forward and leaning left. Use `50000` and `30000` as the `duty_u16` value for the faster and the slower motor.
+   - `right_forward()`: drives mobile base forward and leaning right. 
+   - `left_backward()`: drives mobile backward and leaning left.  
+   - `right_backward()`: drives mobile base backward and leaning right.
+> [!IMPORTANT]
+>  Use `50000` and `30000` as the `duty_u16()` value for the faster and the slower motor.
+
+#### 1.1 Inherit 
 Complete the Python scripts and answer the questions by editing the [README](/README.md) file. 
 ### (50%) [ramp_up_down.py](/ramp_up_down.py)
 Slowly increase and decrease both motors' speed. Both motors should take actions at the same time.
