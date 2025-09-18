@@ -12,7 +12,7 @@ if __name__=="__main__":
   from time import sleep
   
   # SETUP/INSTANTIATE
-  dd = DiffDriver(left_ids=(7, 9, 8), right_ids=(15, 13, 14), stby_id=12)  # Feel free to change this
+  dd = DiffDriver(left_ids=(), right_ids=(), stby_id=)  # Fill in correct ids
 
   # LOOP
   dd.left_forward()
