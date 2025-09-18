@@ -1,7 +1,7 @@
 # Spin Motors
 
 ## Objectives
-- Explore different configurations on the motor driver board (TB6612FNG).
+- Configure the motor driver board (TB6612FNG).
 - Practice class inheritance, modification and instantiation.
 
 
@@ -11,8 +11,8 @@
 You will configure the motor driver board slightly different from the example.
 
 #### 1.1. Wiring Pico and Motor Driver Board
-- Control right motor using `A` channel of the motor driver board.
-- Control left motor using `B` channel.
+- Control left motor using `A` channel of the motor driver board.
+- Control right motor using `B` channel.
 - Use `GPIO7` for left motor's `PWM` input.
 - Use `GPIO9` for left motor's `IN1` input.
 - Use `GPIO8` for left motor's `IN2` input.
@@ -22,10 +22,9 @@ You will configure the motor driver board slightly different from the example.
 
 #### (10%) 1.2 Circuit Picture
 - Please take a picture of your circuit and display it below 👇
-- 
 
 > [!IMPORTANT]
-> Please make sure your picture **clearly** illustrates the correct wiring as required above.
+> Please make sure your picture **clearly** illustrates the wiring as required above.
 
 > [!NOTE]
 > Only the signal wiring section is required.
