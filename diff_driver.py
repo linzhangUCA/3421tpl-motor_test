@@ -1,15 +1,18 @@
 """
-Import correct modules and get started customizing them.
-https://github.com/linzhangUCA/3421example-motor_control
+Import correct modules and build a DiffDriver class upon them.
+Refer to: https://github.com/linzhangUCA/3421example-motor_control
 """
+### START CODING HERE
 
-# TEST
+### END CODING HERE
+
+# TEST (change below code under your own risk)
 if __name__=="__main__":
   # IMPORT
   from time import sleep
   
   # SETUP/INSTANTIATE
-  dd = DiffDriver(right_ids=(9, 11, 10), left_ids=(15, 13, 14), stby_id=12)
+  dd = DiffDriver(right_ids=(9, 11, 10), left_ids=(15, 13, 14), stby_id=12)  # Feel free to change this
 
   # LOOP
   dd.left_forward()
