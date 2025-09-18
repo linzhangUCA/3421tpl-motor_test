@@ -1,4 +1,4 @@
-# Motors Spin-Up
+# Spin Motors
 
 ## Objectives
 - Explore different configurations on the motor driver board (TB6612FNG).
@@ -39,7 +39,7 @@ You will configure the motor driver board slightly different from the example.
 Work in [diff_driver.py](diff_driver.py).
 Develop a `DiffDriver` class by inheriting `DualMotorDriver` class.
 
-1. Import correct module and inherit the `DualMotorDriver` class
+1. Import correct module and inherit the `DualMotorDriver` class.
 2. Introduce the following four methods/functions to the `DiffDriver` class and achieve the requested behavior.
    - `left_forward()`: drives mobile base forward and leaning left.
    - `right_forward()`: drives mobile base forward and leaning right. 
@@ -54,7 +54,9 @@ Develop a `DiffDriver` class by inheriting `DualMotorDriver` class.
 > - Test code has been included in [diff_driver.py](diff_driver.py). 
 
 #### 2.2. Use `DiffDriver` Class
-Please complete code in [test_diff_drive.py](test_diff_drive.py) to instantiate the `DiffDriver` class and use it to drive the motors. 
+Please complete code in [test_diff_drive.py](test_diff_drive.py) to instantiate the `DiffDriver` class and use it to spin the motors.
+1. Import correct module and instantiate an object using `DiffDriver` class. 
+
 
    
 ## AI Usage Policy
