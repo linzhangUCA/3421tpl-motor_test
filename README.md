@@ -32,7 +32,7 @@ You will configure the motor driver board slightly different from the example.
 > - Only the signal wiring section is mandatory.
 > illustrating motor and battery connections is optional. 
 
-### 2. Coding Exercises
+### 2. (65%) Coding Exercises
 
 #### (55%) 2.1. Build `DiffDriver` Class from Inheritance
 Work in [diff_driver.py](diff_driver.py).
