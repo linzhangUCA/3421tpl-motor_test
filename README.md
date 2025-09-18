@@ -45,10 +45,13 @@ Develop a `DiffDriver` class by inheriting `DualMotorDriver` class.
    - `right_forward()`: drives mobile base forward and leaning right. 
    - `left_backward()`: drives mobile backward and leaning left.  
    - `right_backward()`: drives mobile base backward and leaning right.
+> [!WARNING]
+> Nothing is allowed to be explicitly imported from `machine`.
 
 > [!TIP]
 > - Upload [motor_driver.py](https://github.com/linzhangUCA/3421example-motor_control/blob/main/motor_driver.py) and [dual_motor_driver.py](https://github.com/linzhangUCA/3421example-motor_control/blob/main/dual_motor_driver.py) to your Pico board.
-> - Test code has been included in [diff_driver.py](diff_driver.py). . 
+> - Learn more about class inheritance from an interactive [tutorial](https://www.w3schools.com/python/python_inheritance.asp)
+> - Test code has been included in [diff_driver.py](diff_driver.py). 
 
 #### 2.2. Use `DiffDriver` Class
 Please complete code in [test_diff_drive.py](test_diff_drive.py) to instantiate the `DiffDriver` class and use it to drive the motors. 
