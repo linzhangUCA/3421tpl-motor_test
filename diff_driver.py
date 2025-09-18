@@ -2,19 +2,16 @@
 Import correct modules and build a DiffDriver class upon them.
 Refer to: https://github.com/linzhangUCA/3421example-motor_control
 """
-### START CODING HERE
 
-### END CODING HERE
 
-# TEST (change below code under your own risk)
+# TEST
 if __name__=="__main__":
-  # IMPORT
   from time import sleep
   
-  # SETUP/INSTANTIATE
+  # INSTANTIATE
   dd = DiffDriver(left_ids=(), right_ids=(), stby_id=)  # Fill in correct ids
 
-  # LOOP
+  # Execute
   dd.left_forward()
   print("LF")
   sleep(4)
