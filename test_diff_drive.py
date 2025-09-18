@@ -1,6 +1,6 @@
-from time import sleep
+# Import
 
-diff_driver = DiffDriver(left_ids=(7, 9, 8), right_ids=(15, 13, 14), stby_id=12)
-### START CODING HERE
+# Instantiate
+diff_driver = DiffDriver(left_ids=(), right_ids=(), stby_id=)  # fill in correct ids
 
-### END CODING HERE
+# Execute
