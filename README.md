@@ -3,18 +3,41 @@
 ## Objectives
 - Implement modular software development using object-orient programming paradim.
 - Practice class inheritance, modification and instantiation.
-- Estimate motor speed
-- Aware the gearbox and its functions. 
+- Explore different configurations using the motor driver board (TB6612FNG).
+- Roughly estimate motor speed. 
 
 ## Requirements
 
-### 1. Coding Exercises
+### 1. Physical Configuration
+You will configure the motor driver board slightly different from the example.
+
+#### 1.1. Wiring Pico and Motor Driver Board
+- Control right motor using `A` channel of the motor driver board.
+- Control left motor using `B` channel.
+- Use `GPIO7` for left motor's `PWM` input.
+- Use `GPIO9` for left motor's `IN1` input.
+- Use `GPIO8` for left motor's `IN2` input.
+- Use `GPIO15` for right motor's `PWM` input.
+- Use `GPIO13` for right motor's `IN1` input.
+- Use `GPIO14` for right motor's `IN2` input.
+
+#### (10%) 1.2 Circuit Picture
+- Please take a picture of your circuit and display it below 👇
+- Please make sure your picture clearly illustrates the correct wiring as required above.
+
+> [!NOTE]
+> Only the signal wiring section is required.
+> No need for illustrating the motor and battery connections. 
+
+![circuit_pic](circuit_pic.jpg)
+
+### 2. Coding Exercises
 Upload the [example scripts](https://github.com/linzhangUCA/3421example-motor_control) to your Pico.
 Develop a `DiffDriver` class by inheriting `DualMotorDriver` class.
 
 1. Import correct module and inherit the `DualMotorDriver` class
 2. Introduce the following four methods/functions to the `DiffDriver` class and achieve the requested behavior.
-   - `left_forward()`: drives mobile base forward and leaning left. Use `50000` and `30000` as the `duty_u16` value for the faster and the slower motor.
+   - `left_forward()`: drives mobile base forward and leaning left.
    - `right_forward()`: drives mobile base forward and leaning right. 
    - `left_backward()`: drives mobile backward and leaning left.  
    - `right_backward()`: drives mobile base backward and leaning right.
